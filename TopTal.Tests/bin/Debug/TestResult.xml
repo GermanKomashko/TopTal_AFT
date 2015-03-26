@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\G505s\Documents\Visual Studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\TopTal.Tests.nunit" total="1" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-03-17" time="14:09:56">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="NOUT" user="G505s" user-domain="NOUT" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Users\G505s\Documents\Visual Studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\TopTal.Tests.nunit" executed="True" result="Failure" success="False" time="17.000" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Users\G505s\Documents\Visual Studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\TopTal.Tests.dll" executed="True" result="Failure" success="False" time="16.955" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="TopTal" executed="True" result="Failure" success="False" time="16.954" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="16.954" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="CreateJob" executed="True" result="Error" success="False" time="16.944" asserts="0">
+                    <failure>
+                      <message><![CDATA[SetUp : System.Runtime.InteropServices.COMException : Retrieving the COM class factory for component with CLSID {1A671297-FA74-4422-80FA-6C5D8CE4DE04} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).]]></message>
+                      <stack-trace><![CDATA[at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+at System.Activator.CreateInstance(Type type)
+at TopTal.Core.BaseTest.AutoriseToProxy() in c:\Users\G505s\Documents\Visual Studio 2012\Projects\TopTal\TopTal.Core\BaseTest.cs:line 45
+at TopTal.Core.BaseTest.Init() in c:\Users\G505s\Documents\Visual Studio 2012\Projects\TopTal\TopTal.Core\BaseTest.cs:line 31
+at TopTal.Core.BaseTest..ctor() in c:\Users\G505s\Documents\Visual Studio 2012\Projects\TopTal\TopTal.Core\BaseTest.cs:line 24
+at TopTal.Tests.CreateJob..ctor()
+]]></stack-trace>
+                    </failure>
+                    <results>
+                      <test-case name="TopTal.Tests.CreateJob.AddNewJob" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in CreateJob]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

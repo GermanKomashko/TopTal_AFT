@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopTal.Tests", "TopTal.Tests\TopTal.Tests.csproj", "{97EE9451-BE20-40A6-B072-E5B8A375DC67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopTal.PageObjects", "TopTal.PageObjects\TopTal.PageObjects.csproj", "{D288C4A4-A206-44ED-9305-DA0E5BD337D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopTal.Utilities", "TopTal.Utilities\TopTal.Utilities.csproj", "{539F3CE1-472C-4409-98EF-86BA206D993C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopTal.Core", "TopTal.Core\TopTal.Core.csproj", "{9CF1A22A-374E-40C4-9323-3E382A9C9A68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97EE9451-BE20-40A6-B072-E5B8A375DC67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EE9451-BE20-40A6-B072-E5B8A375DC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EE9451-BE20-40A6-B072-E5B8A375DC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EE9451-BE20-40A6-B072-E5B8A375DC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D288C4A4-A206-44ED-9305-DA0E5BD337D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D288C4A4-A206-44ED-9305-DA0E5BD337D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D288C4A4-A206-44ED-9305-DA0E5BD337D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D288C4A4-A206-44ED-9305-DA0E5BD337D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{539F3CE1-472C-4409-98EF-86BA206D993C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539F3CE1-472C-4409-98EF-86BA206D993C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539F3CE1-472C-4409-98EF-86BA206D993C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539F3CE1-472C-4409-98EF-86BA206D993C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF1A22A-374E-40C4-9323-3E382A9C9A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF1A22A-374E-40C4-9323-3E382A9C9A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF1A22A-374E-40C4-9323-3E382A9C9A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF1A22A-374E-40C4-9323-3E382A9C9A68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

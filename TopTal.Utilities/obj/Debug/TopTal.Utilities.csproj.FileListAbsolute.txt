@@ -1,0 +1,11 @@
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Utilities\bin\Debug\TopTal.Utilities.dll
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Utilities\bin\Debug\TopTal.Utilities.pdb
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Utilities\obj\Debug\TopTal.Utilities.csprojResolveAssemblyReference.cache
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Utilities\obj\Debug\TopTal.Utilities.dll
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Utilities\obj\Debug\TopTal.Utilities.pdb
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Utilities\obj\Debug\Interop.AutoItX3Lib.dll
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Utilities\obj\Debug\TopTal.Utilities.csproj.ResolveComReference.cache
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Utilities\bin\Debug\WebDriver.dll
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Utilities\bin\Debug\WebDriver.Support.dll
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Utilities\bin\Debug\WebDriver.xml
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Utilities\bin\Debug\WebDriver.Support.xml

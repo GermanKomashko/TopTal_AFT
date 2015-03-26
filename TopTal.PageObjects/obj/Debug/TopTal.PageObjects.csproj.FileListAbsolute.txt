@@ -1,0 +1,13 @@
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\bin\Debug\TopTal.PageObjects.dll
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\bin\Debug\TopTal.PageObjects.pdb
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\bin\Debug\TopTal.Core.dll
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\bin\Debug\WebDriver.dll
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\bin\Debug\WebDriver.Support.dll
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\bin\Debug\TopTal.Core.pdb
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\bin\Debug\WebDriver.xml
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\bin\Debug\WebDriver.Support.xml
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\obj\Debug\TopTal.PageObjects.csprojResolveAssemblyReference.cache
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\obj\Debug\TopTal.PageObjects.dll
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\obj\Debug\TopTal.PageObjects.pdb
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\bin\Debug\TopTal.Utilities.dll
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\bin\Debug\TopTal.Utilities.pdb

@@ -1,0 +1,17 @@
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\TopTal.Tests.dll
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\TopTal.Tests.pdb
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\nunit.framework.dll
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\TopTal.Core.dll
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\TopTal.PageObjects.dll
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\WebDriver.dll
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\WebDriver.Support.dll
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\TopTal.Core.pdb
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\TopTal.PageObjects.pdb
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\nunit.framework.xml
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\WebDriver.xml
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\WebDriver.Support.xml
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\obj\Debug\TopTal.Tests.csprojResolveAssemblyReference.cache
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\obj\Debug\TopTal.Tests.dll
+c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\obj\Debug\TopTal.Tests.pdb
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\TopTal.Utilities.dll
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\TopTal.Utilities.pdb
