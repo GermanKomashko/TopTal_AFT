@@ -2,8 +2,10 @@
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Security.AccessControl;
 using TopTal.Core;
+using TopTal.Core.Models;
 using TopTal.PageObjects;
 using TopTal.PageObjects.TestDataModels;
 using TopTal.Utilities;
@@ -17,23 +19,21 @@ namespace TopTal.Tests
         [TestInitialize]
         public void Precondition()
         {
-            #region Testdata
-            string email = "slava.connectpal.com@mailinator.com";
-            string password = "password";
-            #endregion
+            Credentials credentials = ConfigurationProvider.GetLoginCredentials();
 
             LandingPage landingPage = new LandingPage(Driver);
             LoginPage loginPage = landingPage.OpenLoginPage();
-            ProfilePage profilePage = loginPage.LogOn(email, password);
+            ProfilePage profilePage = loginPage.LogOn(credentials.Login, credentials.Password);
             profilePage.ClickAddNewJobButton();
         }
 
+#region "Green Way" test
 
         [TestMethod]
         public void Job_ShouldBeCreated() 
         {   
             BasicInfoPage basicInfoPage = new BasicInfoPage(Driver);
-            basicInfoPage.FillBasicInfoPage("Some Title", "some description about description with description");
+            basicInfoPage.FillBasicInfoPage("some title", "some description");
             
             DetailsPage detailsPage = new DetailsPage(Driver);
             detailsPage.FillDetailsPage(new DetailsPageData()
@@ -58,9 +58,13 @@ namespace TopTal.Tests
             Assert.IsNotNull(whatsNextPage.ConfirmTitle);
         }
 
-        
+#endregion
+
+
+#region Check mandatory fields
+
         [TestMethod]
-        public void BasicInfoPage_ShouldShowValidation()
+        public void BasicInfoPage_ShouldShowMandatoryFields()
         {
             BasicInfoPage basicInfoPage = new BasicInfoPage(Driver);
             basicInfoPage.ClickNextButton();
@@ -81,7 +85,7 @@ namespace TopTal.Tests
 
 
         [TestMethod]
-        public void DetailsPage_ShouldShowValidation()
+        public void DetailsPage_ShouldShowMandatoryFields()
         {
             BasicInfoPage basicInfoPage = new BasicInfoPage(Driver);
             basicInfoPage.FillBasicInfoPage("someTitle", "someDescription");
@@ -105,7 +109,7 @@ namespace TopTal.Tests
 
 
         [TestMethod]
-        public void RequiredSkillsPage_ShouldShowValidation()
+        public void RequiredSkillsPage_ShouldShowMandatoryFields()
         {
             BasicInfoPage basicInfoPage = new BasicInfoPage(Driver);
             basicInfoPage.FillBasicInfoPage("someTitle", "someDescription");
@@ -126,7 +130,7 @@ namespace TopTal.Tests
 
 
         [TestMethod]
-        public void ConfirmPage_ShouldShowValidation()
+        public void ConfirmPage_ShouldShowMandatoryFields()
         {
             BasicInfoPage basicInfoPage = new BasicInfoPage(Driver);
             basicInfoPage.FillBasicInfoPage("someTitle", "someDescription");
@@ -162,5 +166,27 @@ namespace TopTal.Tests
 
             Assert.IsTrue(requiredSkillsPage.GetErrorsList().Count.Equals(1));
         }
+
+#endregion
+
+
+#region Boundary checks
+
+
+        [TestMethod]
+        public void DetailsPage_ShouldShowValidation()
+        {
+            BasicInfoPage basicInfoPage = new BasicInfoPage(Driver);
+            basicInfoPage.FillBasicInfoPage("someTitle", "someDescription");
+          
+            DetailsPage detailsPage = new DetailsPage(Driver);
+            detailsPage.DesiredStartDate = "1765-03-04";
+            detailsPage.EstimatedLength = "12+ months";
+            detailsPage.ClickNextButton();
+
+            Assert.IsTrue(detailsPage.GetErrorsList().Count.Equals(1));
+        }
+
+        #endregion
     }
 }

@@ -11,3 +11,6 @@ c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Core\obj\Debu
 c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Core\obj\Debug\TopTal.Core.pdb
 C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Core\obj\Debug\Interop.AutoItX3Lib.dll
 C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Core\obj\Debug\TopTal.Core.csproj.ResolveComReference.cache
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Core\bin\Debug\TopTal.Utilities.dll
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Core\bin\Debug\TopTal.Utilities.pdb
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Core\bin\Debug\config.xml

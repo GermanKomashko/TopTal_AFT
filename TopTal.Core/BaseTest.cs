@@ -10,15 +10,14 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
+using TopTal.Core.Models;
+using TopTal.Utilities;
 
 namespace TopTal.Core
 {
     public abstract class BaseTest
     {
         public IWebDriver Driver;
-
-        private readonly string url = "http://toptal:staging@staging.toptal.net/";
-
 
         public BaseTest() 
         {
@@ -27,11 +26,17 @@ namespace TopTal.Core
 
 
         [TestInitialize]
-        public void Init() 
+        public void Init()
         {
+            HostConfigs hostConfigs = ConfigurationProvider.GetHostConfigurations();
+            NtlmAuthentication ntlmAuthentication = new NtlmAuthentication();
+
             Driver.Manage().Window.Maximize();
-            Driver.Url = url;
-            AutoriseToProxy();
+            Driver.Url = hostConfigs.Url;
+
+            ntlmAuthentication
+                .InsertCredenntialsAndLogin(hostConfigs.Login, hostConfigs.Password);
+
         }
 
 
@@ -40,26 +45,6 @@ namespace TopTal.Core
         {
             Driver.Manage().Cookies.DeleteAllCookies();
             Driver.Quit();
-        }
-
-
-        private void AutoriseToProxy()
-        {
-            var autoIT = new AutoItX3();
-
-            //Set Selenium page load timeout to 2 seconds so it doesn't wait forever
-            Driver.Manage().Timeouts().SetPageLoadTimeout(TimeSpan.FromSeconds(2));
-            
-            //Wait for the authentication window to appear, then send username and password
-            autoIT.WinWait("Требуется Аутентификация", "Welcome to Toptal", 10);
-            autoIT.WinActivate("Authentication Required");
-            autoIT.Send("toptal");
-            autoIT.Send("{TAB}");
-            autoIT.Send("staging");
-            autoIT.Send("{ENTER}");
-
-            //Return Selenium page timeout to infinity again
-            Driver.Manage().Timeouts().SetPageLoadTimeout(TimeSpan.FromSeconds(-1));
         }
     }
 }

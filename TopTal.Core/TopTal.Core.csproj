@@ -53,7 +53,11 @@
   <ItemGroup>
     <Compile Include="BasePage.cs" />
     <Compile Include="BaseTest.cs" />
+    <Compile Include="ConfigurationProvider.cs" />
     <Compile Include="Driver.cs" />
+    <Compile Include="Models\Credentials.cs" />
+    <Compile Include="Models\HostConfigs.cs" />
+    <Compile Include="NtlmAuthentication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +73,17 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TopTal.Utilities\TopTal.Utilities.csproj">
+      <Project>{539f3ce1-472c-4409-98ef-86ba206d993c}</Project>
+      <Name>TopTal.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="config.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

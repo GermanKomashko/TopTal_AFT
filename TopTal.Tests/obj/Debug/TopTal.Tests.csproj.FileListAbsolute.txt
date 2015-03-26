@@ -15,3 +15,4 @@ c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\obj\Deb
 c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\obj\Debug\TopTal.Tests.pdb
 C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\TopTal.Utilities.dll
 C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\TopTal.Utilities.pdb
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.Tests\bin\Debug\config.xml

@@ -11,3 +11,4 @@ c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\o
 c:\users\g505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\obj\Debug\TopTal.PageObjects.pdb
 C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\bin\Debug\TopTal.Utilities.dll
 C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\bin\Debug\TopTal.Utilities.pdb
+C:\Users\G505s\documents\visual studio 2012\Projects\TopTal\TopTal.PageObjects\bin\Debug\config.xml

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<configurations>
+  <host>
+    <url>http://toptal:staging@staging.toptal.net/</url>
+    <login>toptal</login>
+    <password>staging</password>
+  </host>
+  <authorization>
+    <login>slava.connectpal.com@mailinator.com</login>    
+    <password>password</password>
+  </authorization>
+</configurations>
